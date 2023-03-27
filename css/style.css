@@ -6,6 +6,15 @@
     box-sizing: border-box;
 }
 
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
 body {
     font-family: Roboto, sans-serif;
     font-size: 17px;
@@ -382,7 +391,7 @@ tr td {
 
 .about img {
     height: auto;
-    width: 420px;
+    width: 70%;
 }
 
 .about-text-1 {
@@ -390,7 +399,7 @@ tr td {
 }
 
 .main {
-    width: 1130px;
+    width: 100%;
     max-width: 95%;
     margin: 0px auto;
     display: flex;
@@ -436,7 +445,8 @@ tr td {
 }
 
 .main button {
-    margin-left: 10px;
+    margin-left: 42%;
+    margin-bottom: -15%;
 }
 
 .main button:hover {
@@ -615,15 +625,15 @@ tr td {
 
     .about img {
         height: auto;
-        width: 420px;
+        width: 70%;
     }
 
     .about-text-1 {
-        width: 550px;
+        width: 80%;
     }
 
     .main {
-        width: 1130px;
+        width: 100%;
         max-width: 95%;
         margin: 0px auto;
         display: flex;
@@ -793,7 +803,7 @@ tr td {
 }
 
 .main {
-    width: 1130px;
+    width: 100%;
     max-width: 95%;
     margin: 0px auto;
     display: flex;
@@ -1224,15 +1234,16 @@ tr td {
 
 .about img {
     height: auto;
-    width: 420px;
+    width: 32%;
+    padding: 1%;
 }
 
 .about-text-1 {
-    width: 550px;
+    width: 80%;
 }
 
 .main {
-    width: 1130px;
+    width: 100%;
     max-width: 95%;
     margin: 0px auto;
     align-items: center;
@@ -1242,20 +1253,21 @@ tr td {
 
 .about-text-1 h1 {
     color: rgb(64, 58, 61);
-    font-size: 49px;
+    font-size: 47px;
     text-transform: capitalize;
     margin-bottom: 20px;
-    text-align: left;
+    text-align: center;
     margin-left: 10px;
 }
 
 .about-text-1 p {
     color: rgba(0, 0, 0, 0.69);
     letter-spacing: 1px;
-    line-height: 28px;
-    font-size: 19px;
+    line-height: 37px;
+    font-size: 17px;
     margin-bottom: 45px;
     text-align: left;
+    padding: 3%;
 }
 
 .container-c span {
@@ -1268,11 +1280,11 @@ tr td {
 }
 
 .main span {
-    width: 177px;
-    height: 8px;
+    width: 24%;
+    height: 6px;
     display: block;
     background-color: rgb(222, 22, 90);
-    margin: 20px 0px 20px 10px;
+    margin: auto;
     border-radius: 10px;
 }
 
@@ -1307,11 +1319,13 @@ tr td {
         width: 100%;
         flex-basis: 100%;
         text-align: center;
+        margin-top: 5%;
     }
 
     nav {
         width: 100%;
         flex-basis: 100%;
+        margin-top: 7%;
     }
 
     nav ul {
@@ -1460,15 +1474,17 @@ tr td {
 
     .about img {
         height: auto;
-        width: 420px;
+        width: 70%;
     }
 
     .about-text-1 {
-        width: 550px;
+        /* width: 97%; */
+        /* text-align: left; */
+        /* margin-right: 89px; */
     }
 
     .main {
-        width: 1130px;
+        width: 100%;
         max-width: 95%;
         margin: 0px auto;
         display: flex;
@@ -1490,8 +1506,9 @@ tr td {
         color: rgba(0, 0, 0, 0.69);
         letter-spacing: 1px;
         line-height: 28px;
-        font-size: 18px;
-        margin: 27px 128px 16px 148px;
+        font-size: 14px;
+        margin: 17px 0 0 24px;
+        /* text-decoration: line-through; */
     }
 
     .container-c span {
@@ -1517,7 +1534,8 @@ tr td {
     }
 
     .main button {
-        margin-left: 147px;
+        margin-left: 22px;
+        margin-top: 33px;
     }
 }
 
@@ -1621,7 +1639,7 @@ tr td {
     }
 
     .main {
-        width: 1130px;
+        width: 100%;
         max-width: 95%;
         margin: 0px auto;
         display: flex;
@@ -1670,25 +1688,17 @@ tr td {
 
     .main button {
         text-align: center;
-        margin-left: 183px;
+        margin-left: 38%;
         width: 177px;
         height: 67px;
-        margin-top: 56px;
+        margin-top: 68px;
     }
 }
 
-
-
 @media only screen and (min-width: 992px) and (max-width: 1024px) {
-
-
     .container {
         width: 96%;
-
     }
-
-
-
 
     .event-head {
         text-align: center;
@@ -1740,8 +1750,6 @@ tr td {
         text-transform: capitalize;
     }
 
-
-
     .container-c {
         width: 80%;
         margin: 50px auto;
@@ -1785,11 +1793,6 @@ tr td {
         margin-bottom: 20px;
     }
 
-
-
-
-
-
     .about {
         width: 100%;
         padding: 78px 0px;
@@ -1798,15 +1801,15 @@ tr td {
 
     .about img {
         height: auto;
-        width: 761px;
+        width: 80%;
     }
 
     .about-text-1 {
-        width: 550px;
+        width: 80%;
     }
 
     .main {
-        width: 1130px;
+        width: 100%;
         max-width: 95%;
         margin: 0px auto;
         display: flex;
@@ -1855,10 +1858,10 @@ tr td {
     }
 
     .main button {
-        width: 200px;
+        width: 25%;
         height: 60px;
         font-size: 20px;
-        margin-left: 168px;
+        margin-left: 33%;
         font-weight: 700;
     }
 
