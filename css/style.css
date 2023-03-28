@@ -1534,7 +1534,7 @@ tr td {
     }
 
     .main button {
-        margin-left: 22px;
+        margin-left: 39px;
         margin-top: 33px;
     }
 }
@@ -1688,10 +1688,10 @@ tr td {
 
     .main button {
         text-align: center;
-        margin-left: 38%;
+        margin-left: 36%;
         width: 177px;
         height: 67px;
-        margin-top: 68px;
+        margin-top: 22px;
     }
 }
 
@@ -1861,7 +1861,7 @@ tr td {
         width: 25%;
         height: 60px;
         font-size: 20px;
-        margin-left: 33%;
+        margin-left: 37%;
         font-weight: 700;
     }
 
